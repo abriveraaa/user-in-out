@@ -4,8 +4,8 @@ import './User.css';
 class Input extends Component {
     render() {
         return(
-            <div>
-                Input
+            <div className="card">
+                
             </div>
         );
     }

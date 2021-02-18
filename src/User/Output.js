@@ -1,8 +1,9 @@
 import React from 'react';
+import './User.css';
 
 const Output = (props) => {
     return(
-        <div>
+        <div className="card">
             Output
         </div>
     );
