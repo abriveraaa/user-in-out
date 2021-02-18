@@ -7,16 +7,16 @@ import Output from './User/Output';
 const App = props => {
   const [ getParagraph, setParagraph ] = useState({
     paragraph: [
-      { paragraph: "This is a first paragraph." },
-      { paragraph: "This is a second paragraph." }
+      { paragraph: "Hi! Ariel" },
+      { paragraph: "Hi! Justin" }
     ]
   }); 
 
   const switchName = () => {
     setParagraph( {
       paragraph: [
-        { paragraph: "This is a 1st paragraph." },
-        { paragraph: "This is a 2nd paragraph." }
+        { paragraph: "Hi! Jesse" },
+        { paragraph: "Hi! Juan" }
       ]
     })
   }
@@ -25,7 +25,7 @@ const App = props => {
     setParagraph({
       paragraph: [
         { paragraph: "Hi! " + event.target.value },
-        { paragraph: "This is a second paragraph." }
+        { paragraph: "Hi! Justin" }
       ]
     });
   }
